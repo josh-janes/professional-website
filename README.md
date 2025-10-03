@@ -18,7 +18,7 @@ A modern, high-performance portfolio website built with TypeScript, Vue.js, Nuxt
 ## 📁 Project Structure
 
 ```
-professional-portfolio/
+professional-website/
 ├── assets/
 │   └── css/
 │       └── main.css              # Global styles and Tailwind directives
@@ -60,8 +60,8 @@ professional-portfolio/
 
 1. **Clone or create the project**:
    ```bash
-   mkdir professional-portfolio
-   cd professional-portfolio
+   mkdir professional-website
+   cd professional-website
    ```
 
 2. **Copy all the files** provided in the artifacts to their respective locations
