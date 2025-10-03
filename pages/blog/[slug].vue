@@ -28,12 +28,6 @@
           {{ post?.description }}
         </p>
 
-        <img 
-          v-if="post?.image" 
-          :src="post.image" 
-          :alt="post.title"
-          class="w-full rounded-lg mt-8 border border-terminal-border"
-        />
       </header>
 
       <!-- Post Content -->
@@ -53,7 +47,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
             <div>
-              <div class="text-sm text-terminal-muted">Previous</div>
+              <div class="text-sm text-terminal">Previous</div>
               <div class="font-semibold">{{ prev.title }}</div>
             </div>
           </NuxtLink>
@@ -64,7 +58,7 @@
             class="flex items-center gap-2 text-terminal-accent hover:text-terminal-success transition-colors text-right ml-auto"
           >
             <div>
-              <div class="text-sm text-terminal-muted">Next</div>
+              <div class="text-sm text-terminal">Next</div>
               <div class="font-semibold">{{ next.title }}</div>
             </div>
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

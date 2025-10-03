@@ -55,7 +55,6 @@ const mobileOpen = ref(false)
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'Blog', path: '/blog' },
-  { name: 'Gallery', path: '/gallery' },
   { name: 'About', path: '/about' }
 ]
 

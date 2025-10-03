@@ -10,17 +10,11 @@
               <span class="text-terminal-accent">Josh</span>
             </h1>
             <p class="text-xl md:text-2xl text-terminal-muted mb-8 leading-relaxed">
-              I am an experienced full stack developer and agile leader. 
-              I build high-performance event-driven systems to financially empower millions of people around the world. 
-              I have expertise in building scalable platforms with Java, Kotlin, and C#.
-              And I always make an effort to learn something new every single day.
+              I'm a full-stack developer and agile leader with experience building high-performance, event-driven systems that empower millions of people worldwide. My expertise spans scalable platforms in Java, Kotlin, and C#. I'm passionate about continuous learning and make it a priority to grow my skills every day.
             </p>
             <div class="flex flex-wrap gap-4">
               <NuxtLink to="/blog" class="btn-primary">
                 View Blog
-              </NuxtLink>
-              <NuxtLink to="/gallery" class="btn-secondary">
-                See Work
               </NuxtLink>
             </div>
           </div>
@@ -29,7 +23,7 @@
             <div class="relative">
               <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-terminal-accent shadow-lg hover:shadow-terminal-accent/50 transition-shadow duration-300">
                 <img 
-                  src="../images/facemex.jpg" 
+                  src="../public/images/facemex.jpg" 
                   alt="Professional headshot"
                   class="w-full h-full object-cover"
                 />

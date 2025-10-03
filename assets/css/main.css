@@ -131,7 +131,7 @@
 }
 
 .prose p {
-  @apply mb-5 leading-relaxed text-lg;
+  @apply mb-5 leading-relaxed text-terminal-accent;
 }
 
 .prose ul, .prose ol {

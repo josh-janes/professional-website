@@ -29,7 +29,7 @@
               <span class="text-6xl">👨‍💻</span>
             </div>
             <div class="text-center">
-              <h3 class="font-bold text-xl mb-2">Developer</h3>
+              <h3 class="font-bold text-xl mb-2">Josh Janes</h3>
               <p class="text-terminal-muted text-sm">Full-Stack Engineer</p>
             </div>
           </div>
@@ -136,14 +136,14 @@ const experience = [
   {
     title: 'Software Engineer L3 (Remote, Canada)',
     company: 'Earnin',
-    period: '2022 - 2024',
-    description: 'Led development of a new login system with a Typescript/React frontend and a C#/Java backend for login services, enabling seamless integration across mobile and web. Reduced security vulnerabilities by 15% through the implementation of a new OAuth/Passkey authentication systems hosted on C# microservices. Collaborated with stakeholders to implement Keycloak framework, streamlining user authentication and reducing customer support calls by 20%. Interviewed dozens of IC Software Engineering candidates.'
+    period: '2022-2024',
+    description: 'Led the design and implementation of a cross‑platform login system with React, TypeScript, C Sharp, and Java, which cut security vulnerabilities by 15 percent through OAuth and Passkey authentication. Partnered with stakeholders to integrate Keycloak, streamlining user authentication and reducing support calls by 20 percent. Managed the interview process for dozens of software‑engineering candidates.'
   },
   {
     title: 'Software Engineer L1/L2 (Mountain View, Califonia)',
     company: 'Intuit',
     period: '2017-2021',
-    description: 'Designed and deployed a Python-based LLM model for the Quickbooks Assistant chatbot, increasing message volume by 14% through improved user interactions. Built a Java/Spring Boot development platform for the creation of AI Agents to answer customer queries in QuickBooks Online and Turbotax, which resulted in a 40% reduction in CX calls and cost savings of $1.3 million per year. Orchestrated A/B testing campaigns to refine Android app UX/UI, boosting user retention by 10% through data-driven improvements. Migrated legacy Java monolithic code into Kotlin microservices, improving maintainability and accelerating deployment cycles. Led the transition of Quickbooks Assistant from synchronous REST APIs to asynchronous gRPC protocols, enabling real-time CX chat.'
+    description: 'I led the complete overhaul of QuickBooks Assistant, deploying a Python LLM for richer chatbot interactions, building a Java Spring Boot platform that powers AI agents for QuickBooks Online and TurboTax, and modernizing the backend with Kotlin microservices. I also shifted the system from synchronous REST to asynchronous gRPC, enabling real‑time chat, while using data‑driven A/B tests to improve app engagement and streamline release cycles.'
   },
   {
     title: 'Computer Repair Technician (Edmonton, Alberta)',

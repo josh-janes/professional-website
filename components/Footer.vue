@@ -23,20 +23,24 @@
         <div>
           <h3 class="text-lg font-bold mb-4 text-terminal-accent">Connect</h3>
           <div class="flex space-x-4">
-            <a v-for="social in socials" :key="social.name" 
-               :href="social.url" 
-               target="_blank"
-               rel="noopener noreferrer"
-               class="text-terminal-muted hover:text-terminal-accent transition-colors"
-               :aria-label="social.name">
-              <component :is="social.icon" class="w-6 h-6" />
+            <a v-for="social in socials"
+              :key="social.name"
+              :href="social.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-terminal-muted hover:text-terminal-accent transition-colors"
+              :aria-label="social.name">
+              
+              <!-- Use an <img> tag instead of <component> -->
+              <img :src="social.icon" :alt="social.name" class="w-6 h-6" />
+              
             </a>
           </div>
         </div>
       </div>
 
       <div class="mt-8 pt-8 border-t border-terminal-border text-center text-terminal-muted">
-        <p>&copy; {{ currentYear }} Professional Portfolio. Built with Nuxt & Vue.</p>
+        <p>&copy; {{ currentYear }} Built in 🇨🇦 with Nuxt & Vue.</p>
       </div>
     </div>
   </footer>
@@ -48,13 +52,11 @@ const currentYear = new Date().getFullYear()
 const quickLinks = [
   { name: 'Home', path: '/' },
   { name: 'Blog', path: '/blog' },
-  { name: 'Gallery', path: '/gallery' },
   { name: 'About', path: '/about' }
 ]
 
 const socials = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'IconGithub' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'IconLinkedin' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'IconTwitter' }
+  { name: 'GitHub', url: 'https://github.com/josh-janes', icon: '/images/github.png' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/josh-janes-8ab04a126/', icon: '/images/linkedin.png' }
 ]
 </script>

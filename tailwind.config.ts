@@ -23,7 +23,7 @@ export default <Partial<Config>>{
           elevated: '#ffffff',
           border: '#e1e4e8',
           text: '#24292e',
-          muted: '#586069',
+          muted: '#24292e',
           accent: '#0366d6',
           success: '#28a745',
           warning: '#ffd33d',

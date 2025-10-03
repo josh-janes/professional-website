@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   
     app: {
       head: {
-        title: 'Professional Portfolio',
+        title: 'Josh Janes',
         meta: [
           { charset: 'utf-8' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
